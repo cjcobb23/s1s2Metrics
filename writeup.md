@@ -10,7 +10,7 @@ the TreeNodeCache
 For each host, the database reads per second is defined as total database reads
 divided by total uptime in seconds.
 
-The sum of all database reads per second is 3973.5.
+The sum of all database reads per second was 3973.5.
 
 If all of these client handlers are replaced by reporting mode servers, every
 database read on every server will hit the same Cassandra cluster. Therefore,
